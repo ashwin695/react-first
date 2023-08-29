@@ -11,6 +11,8 @@ const ExpenseItem = (props) => {
                 <h2>{props.title}</h2>
                 <div className='expense-item_price'>Rs. {props.amount}</div>
             </div>
+            <button onClick={console.log("Change Title")}>Change title</button>
+            <button onClick={console.log("Delete")}>Delete Button</button>
         </Card>
     )
 }
